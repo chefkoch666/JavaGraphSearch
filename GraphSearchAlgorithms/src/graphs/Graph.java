@@ -114,4 +114,4 @@ public class Graph {
 		graph.dfs();
 	} // end public static void main(String[] args)
 	
-} // end public class DepthFirstSearch
+} // end public class Graph

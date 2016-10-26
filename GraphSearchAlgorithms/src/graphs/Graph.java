@@ -105,13 +105,14 @@ public class Graph {
 	} // end public void print()
 
 	public static void main(String[] args)
-	throws IOException {
+	throws IOException { 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter graph input file name: ");
 		String file = sc.nextLine();
 		Graph graph = new Graph(file);
 		//graph.print();
 		graph.dfs();
+		sc.close(); // is this the right line?
 	} // end public static void main(String[] args)
 	
 } // end public class Graph
